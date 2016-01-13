@@ -18,11 +18,11 @@ Docker image for ubuntu with tsuru-client 0.17.1
 
   - Add the follow line in the end of `Dockerfile`:
     
-    `tsuru target-add <target-label> <target-url> -s`
+    `RUN tsuru target-add <target-label> <target-url> -s`
     
     For example:
     
-    `tsuru target-add default http://tsuru.isabelabel.com:8080 -s`
+    `RUN tsuru target-add default http://tsuru.isabelabel.com:8080 -s`
 
     - `<target-label>` can be replaced by any desired name for the target and `<target-url>` should be replaced by the desired tsuru target.
 
