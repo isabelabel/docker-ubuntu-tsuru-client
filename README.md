@@ -22,7 +22,7 @@ Docker image for ubuntu with tsuru-client 0.17.1
     
     For example:
     
-    `RUN tsuru target-add default http://tsuru.isabelabel.com:8080 -s`
+    `RUN tsuru target-add default http://isabelabel.com:3000 -s`
 
     - `<target-label>` can be replaced by any desired name for the target and `<target-url>` should be replaced by the desired tsuru target.
 
